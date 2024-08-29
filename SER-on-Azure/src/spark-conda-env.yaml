@@ -1,0 +1,23 @@
+name: env-asr
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipykernel
+  - openssh
+  - librosa
+  - azure-ai-ml
+  - azure-identity
+  - azureml
+  - azure-core
+  - scikit-learn
+  - pandas
+  - numpy<2.0
+  - matplotlib
+  - pyspark
+  - pip
+  - pip:
+    - azureml-core
+    - azureml-featurestore
+    - azureml-mlflow
+    - mlflow
